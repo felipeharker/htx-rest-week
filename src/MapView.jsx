@@ -28,7 +28,7 @@ export default function MapView({ data, selectedRestaurant, onSelectRestaurant }
 
   return (
     <div className="flex flex-col space-y-4">
-      <div className="w-full h-[50vh] min-h-[350px] border border-black relative">
+      <div className="w-full h-[60vh] border border-black relative">
         <Map
           ref={mapRef}
           initialViewState={{

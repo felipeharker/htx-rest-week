@@ -17,8 +17,8 @@ function App() {
   return (
     <main className="min-h-screen p-4 md:p-8 lg:p-12 bg-white text-black font-sans">
       <div className="max-w-7xl mx-auto">
-        <header className="flex flex-col space-y-4 mb-6 md:mb-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-serif pb-2 leading-tight">HTX Restaurant Week 2026</h1>
+        <header className="flex flex-col space-y-4 mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold font-serif whitespace-nowrap pb-2">HTX Restaurant Week 2026</h1>
           <div className="flex space-x-4 border-b border-black pb-2">
             <button
               className={`font-serif text-xl ${activeTab === 'list' ? 'font-bold underline' : 'hover:opacity-70'}`}
